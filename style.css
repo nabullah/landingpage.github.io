@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Raleway:wght@300&display=swap');
+
+body{
+    background: rgb(173, 161, 161);
+    color: black;
+}
+/* images/logo  Header-Section*/
+
+.icons{
+    display: flex;
+    position: relative;
+    height: 68px;
+    margin: 6px -46px;
+    color: orange;
+    left: 29px;
+    top: 23px;
+   }
+
+   header{
+       position: sticky;
+       display: flex;
+       top: 0;
+       width: 100%;
+        left: 0;
+         z-index: 1;
+         background-color: rgb(173, 161, 161);
+         border: 2px solid black;
+         border-radius:62px ;
+         box-shadow: 1px 1px 2px 2px rgb(0, 0, 0);
+        
+   }
+/* _______________________________ */
+#header-img{
+    height: 74px;
+    margin-right:14px ;
+    max-width: 300px;
+}
+
+/* Navigation Bar */
+
+@media only screen and (max-width: 950px){
+    
+   #nav-nar{
+       display: flex;
+       flex-direction: column;
+   } 
+   #header-img{
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+   }
+   #nav-bar ul li{
+       display: flex;
+       flex-direction: column;
+   }
+   #italian-he,#private-rooms-he, #self-service-he,#home-delivery-he{
+       font-size: 1.5rem;
+   }
+   .services-para{
+       font-size: 1.5rem;
+   }
+   
+}
+
+
+#nav-bar ul{
+   
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    right: 71px;
+    height: 57px;
+    padding: 7px;
+    margin-top: 0;
+    
+}
+
+#nav-bar ul li{
+    font-size: 1.5rem;
+    margin-left: 72px;
+    padding: 7px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+
+.nav-link{
+    
+    color: white;
+    text-decoration: none !important;
+}
+/* ____0____________________________ */
+
+/* Utility Classes */
+.h-primary{
+    padding: 12px;
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.center{
+    text-align: center;
+    
+}
+.inside-heading{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    width: 34vw;
+
+}
+
+.services-para{
+    font-family: 'Raleway', sans-serif;
+    width: 44vw;
+}
+
+
+/* _____________________________________________ */
+
+/* About Us */
+
+#aboutus-container{
+     
+    margin-top:14px ;
+    padding: 18px;
+}
+#aboutus-para p{
+   text-align: left;
+ 
+   
+}
+#aboutus-para{
+    font-size: 1.2rem;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    margin:12px auto;
+}
+p{
+    width: 75vw;
+    word-wrap: break-word;
+}
+/* ______________________________________________ */
+/* Servises-Section */
+
+/* Sub-Container */
+#sub-container{
+    display: block;
+ 
+    width: 75%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+#services-container{
+    display: block;
+ 
+    margin-top:14px ;
+    padding: 18px;
+    overflow: auto;
+}
+
+/* Italian-Section */
+
+
+#italian,#private-rooms, #self-service,#home-delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#italian-he,#private-rooms-he, #self-service-he,#home-delivery-he{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 125px;
+    top: 14px;
+}
+
+/* ___________________________________________________________ */
+
+
+/* Embedded Video */
+
+#catalogue{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+iframe{
+    display: flex;
+    width: 69vw;
+    height: 24vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+input[type="email"]{
+    padding: 20px;
+    margin: 14px;
+    width: 33vw;
+    font-size: 19px;
+    font-family: 'Raleway';
+}
+#submit{
+    padding: 10px;
+    margin-top: -2px;
+    width: 36vw;
+    font-size: 1.8rem;
+    font-family: 'Raleway';
+    border:none;
+}
+
+input[type="email"]:focus{
+    border: 2px solid rgb(226, 61, 32);
+   overflow: auto;
+    
+}
+
+
